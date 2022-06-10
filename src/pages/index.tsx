@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='center-plis'>
-        <Title>Bem vindo Jovem Padawan</Title>
+        <Title>Bem-vindo, Jovem Padawan</Title>
         <Welcome />
       </div>
     </Layout>
