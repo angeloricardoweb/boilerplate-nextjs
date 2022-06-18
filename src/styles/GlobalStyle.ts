@@ -2,12 +2,8 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
   //variables
   :root {
-    --color-blue: #2CBFC7;
-    --color-pink: #CF3290;
-    --color-carmin: #610631;
-    --color-beige: #FFF0C9;
-    --color-white: #FFFFFF;
-    --color-black: #3A3A3A;
+    blue-100: #2CBFC7;
+    carmin-100: #610631;
   }
   body {
     margin: 0;
@@ -19,9 +15,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   p{
     font-size: 1.6rem;
-    color: var(--color-black);
   }
-
   .center-plis{
     display: grid;
     place-items: center;
