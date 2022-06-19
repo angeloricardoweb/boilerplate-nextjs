@@ -1,11 +1,10 @@
 import type { AppProps } from 'next/app'
 import SEO from '../components/Seo'
-import { GlobalStyle } from '../styles/GlobalStyle'
+import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (<>
     <SEO />
-    <GlobalStyle />
     <Component {...pageProps} />
   </>)
 }
